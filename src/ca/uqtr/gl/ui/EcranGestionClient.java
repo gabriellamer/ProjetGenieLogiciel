@@ -47,6 +47,7 @@ public class EcranGestionClient {
 		initialize();
 		this.ctlClients = ControlleurClients.getInstance();
 		this.client = c;
+		this.isDirty = (c == null);
 	}
 
 	/**
